@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.filter_btns {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.filter_btns button {
+    margin: 0 5px;
+    width: initial;
+}
+
+#allTasks {
+    background-color: blue;
+}
+
+#incompletedTasks {
+    background-color: gray;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+li.completed span {
+    text-decoration: line-through;
+    /* Зачеркивание текста задачи */
+    color: #6c757d;
+    /* Цвет завершенного текста */
+}
+
+.deleteButton {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: auto;
+}
+
+.deleteButton:hover {
+    background-color: #c82333;
+}
